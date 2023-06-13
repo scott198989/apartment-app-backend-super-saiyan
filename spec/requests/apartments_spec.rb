@@ -10,23 +10,23 @@ RSpec.describe "Apartments", type: :request do
   describe "GET /index" do
     it 'return a list of apartments' do
       apartment = user.apartments.create(
-        street: '123 anywhere',
-        unit: '2A',
-        city: 'Little Whinging',
-        state: 'Surrey',
-        square_footage: 2000,
-        price: '2000',
-        bedrooms: 3,
-        bathrooms: 2,
-        pets: 'yes',
-        image: 'https://c8.alamy.com/comp/B0RJGE/small-bungalow-home-with-pathway-in-addlestone-surrey-uk-B0RJGE.jpg'
+        street:"Andros Pl",
+        unit:"1",
+        city:"San Diego",
+        state:"CA",
+        square_footage:1200,
+        price:"2,500",
+        bedrooms:2,
+        bathrooms:2,
+        pets:"yes",
+        image:"../assets/images/apartment.jpeg"
       )
       get '/apartments'
 
       apartment = JSON.parse(response.body)
       expect(response).to have_http_status(200)
-      expect(apartment.first['street']).to eq('123 anywhere')
+      expect(apartment.first['street']).to eq('Andros Pl')
     end
   end
 end
-end
+
