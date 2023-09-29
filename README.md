@@ -103,5 +103,4 @@ This project is licensed under the MIT License.
 - **Portfolio**: [Scott's Portfolio](link_to_your_portfolio)
 - **LinkedIn**: [Scott's LinkedIn](link_to_your_linkedin)
 - **Email**: [scott-email@example.com](mailto:scott-email@example.com)
-```
 
