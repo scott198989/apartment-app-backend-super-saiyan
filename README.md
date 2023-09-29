@@ -30,7 +30,7 @@ Welcome to the backend API for the Apartment App built with Rails 7 and PostgreS
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your_username_here/apartment-app-backend.git
+git clone https://github.com/scott198989/apartment-app-backend.git
 ```
 
 2. **Navigate to Directory**
@@ -105,6 +105,3 @@ This project is licensed under the MIT License.
 - **Email**: [scott-email@example.com](mailto:scott-email@example.com)
 ```
 
----
-
-How's that looking, man? Feel free to make any adjustments you think would fit better.
